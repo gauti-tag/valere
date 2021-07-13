@@ -1,0 +1,107 @@
+label.error{
+    color: red;
+   /* font-style: italic;*/
+    font-family: open sans, sans-serif
+}
+input.error{
+    border: 1px solid red;
+}
+input.valid{
+
+    border: 1px solid green;
+}
+
+.btn-soumettre
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+  /*  -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;*/
+   /* text-align: right;*/
+    background-color: rgb(91, 198, 242);
+   /* position: relative;*/
+  /*  z-index: 1;*/
+  /*  display: inline-block;*/
+    padding: 4px 4px;
+    border-style: none;
+    border-radius: 8px;
+    pointer-events: all;
+    float: right;
+}
+
+#element
+{
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+@media screen and (max-width : 768px) {
+    
+#element
+{
+    font-size: 10px; 
+    font-weight: bold;
+}
+
+}
+
+@media screen and (max-width : 768px) {
+    
+        .btn-soumettre
+        {
+          float: right;
+        }
+    
+    }
+
+
+    .comments
+    {
+        color: red;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #text
+    {
+        border-top: 2px solid white;
+        padding: 15px;
+        font-size: 13px;
+        background-color: black;
+        color: white;
+        height: auto;
+
+    }
+
+    .ticket
+    {
+        font-family: "Akzidenz-Grotesk Next ExtraBold Italic";
+        color: rgb(91, 198, 242);
+        font-size: 18px;
+        margin: 5px;
+    }
+
+
+
+@media screen and (min-width : 768px) {
+
+    #banner
+    {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width : 768px) {
+
+    #text
+    {
+
+        width: 50%;
+
+    }
+
+}
+
